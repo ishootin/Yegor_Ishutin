@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+</head>
+<body>
+    <h4>Первый</h4>
+    <ol><li>Первый</li>
+        <li>второй</li>
+        <li><b>третий </b></li>
+        </ol>
+    <ul><li><q>Четвертый</q></li> <br>
+        <li><em>Пятый</em></li>
+    <img
+        src="http://example.com/cat.jpg"
+        title="Мурка"
+        alt="Не грузит("
+        width="640"
+        height="480"
+    >
+    <figure>
+        <img 
+        src="https://www.google.ru/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png"
+        title="Лого-говного">
+        <figcaption>
+          Лого гугла от 2015 года
+        </figcaption>
+        <figcaption>
+            Лого гугла от 2015 года
+        </figcaption>
+    </figure>
+    <a href="https://google.com"
+    target="_blank"> google</a>
+    <table border="1">
+        <tr>
+          <th>Имя</th>
+          <th>Возраст</th> 
+          <th>Суперспособность</th>
+        </tr>
+        <tr>
+          <td colspan="3">Логан</td>
+          <td>186</td> 
+          <td rowspan="2">Повышенная способность к регенерации</td>
+        </tr>
+        <tr>
+          <td>Профессор икс</td>
+          <td>94</td>
+          <td>Чтение мыслей, вызов иллюзий, временного паралича, способность останавливать время</td> 
+        </tr>
+    </table>
+    <table border="1">
+        <caption>Сотрудники отдела поддержки</caption>
+        <thead>
+          <tr>
+            <th>Имя</th>
+            <th>Должность</th>
+          </tr>
+        </thead>
+        <tfoot>
+            <tr>
+              <td>Вася</td>
+              <td>Девопс</td>
+          </tr>
+          </tfoot>
+        <tbody>
+          <tr>
+            <td>Петя</td>
+            <td>Менеджер</td>
+          </tr>
+          <tr>
+            <td>Маша</td>
+            <td>Разработчик</td>
+          </tr>
+        </tbody>
+    </table>
+    <form name="f1" method="get" action="enter_data.php">
+        <input name="link" type="hidden" value="index.php" />
+        Логин: <br />
+        <input name="login" type="text" size="25" maxlength="30" value="Вася" /> <br />
+        Пароль: <br />
+        <input name="password" type="password" size="25" maxlength="30" value="" /> <br />
+        <input name="remember" type="checkbox"   checked/> Запомнить <br />
+        <input type="submit" name="enter" value="Вхxод" />
+        <select size="3" multiple name="herou">
+            <option disabled>выберите героя</option>
+            <option selected value="человек паук">человек паук</option>
+        
+            <option value="бэтмен">бэтмен</option>
+        
+            <option value="халк">халк</option>
+        
+            <option value="тарзан">тарзан</option><br/>
+        
+            <p><input type="submit" value="отправить"/></p>
+        
+        </select>
+    </form>
+</body>
+</html>
